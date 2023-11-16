@@ -1,0 +1,6 @@
+{
+    "name" : "todoz-dev",
+    "db" : {
+        "address" : "mongodb://localhost:27017/todozdb"
+    }
+}
