@@ -10,7 +10,7 @@ module.exports = class {
         const result = validationResult(req)
         const errors = result.array()
         const message = []
-        if (!result.isEmpty) { 
+        if (!result.isEmpty()) { 
             errors.forEach(err=>message.push(err.msg))
             res.status(400).json({
                 message : 'validation error',
@@ -24,7 +24,7 @@ module.exports = class {
     validate(req,res,next){
         if (!this.validationBody(req,res)) {
             return
-        }
+        }  
         next()
     }
 
