@@ -20,7 +20,7 @@ export default {
   data () {
     return {
       email: 'zb@gmail.com',
-      name: 'zb',
+      name: 'zbghjk',
       password: '123456'
     }
   },
