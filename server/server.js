@@ -4,7 +4,7 @@ const app = express()
 
 const mongoose = require ('mongoose')
 const debug = require ('debug')("app:main")
-const config = require('config');
+const config = require('config')
 
 const router = require('./src/routes/main')
 

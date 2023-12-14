@@ -2,5 +2,6 @@
     "name" : "todoz",
     "db" : {
         "address" : "mongodb://localhost:27017/todozdb"
-    }
+    },
+    "jwt_key":"xdctyvtfg78iokjbhgtfr56uioikjhgvfcdesrty6789ol"
 }
